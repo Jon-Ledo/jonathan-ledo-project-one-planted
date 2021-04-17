@@ -1,3 +1,58 @@
 @import 'partials/setup';
 @import 'partials/variables';
 @import 'partials/mixins';
+@import 'partials/media-queries';
+
+// General Styles
+html {
+	font-size: 62.5%;
+}
+
+body * {
+	padding: 0;
+	margin: 0;
+	font-family: $font-heading;
+}
+
+.wrapper {
+	width: 85%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+ul li {
+	list-style: none;
+
+	a {
+		text-decoration: none;
+		color: $white;
+	}
+}
+
+.flex {
+	display: flex;
+}
+
+// Header Styles
+header {
+	background: url(../../assets/home-image-1.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.nav-bar {
+	padding-top: 2rem;
+
+	.logo {
+		font-size: 2.5rem;
+		color: $white;
+	}
+
+	li a {
+		margin-left: 2rem;
+	}
+}
+
+// Home Styles
+// Home-Nav Styles
+// Footer Styles

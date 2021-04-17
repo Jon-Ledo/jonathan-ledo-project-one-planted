@@ -234,3 +234,53 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body * {
+  padding: 0;
+  margin: 0;
+  font-family: "JosefinSans", sans-serif;
+}
+
+.wrapper {
+  width: 85%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #f0efed;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header {
+  background: url(../../assets/home-image-1.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.nav-bar {
+  padding-top: 2rem;
+}
+
+.nav-bar .logo {
+  font-size: 2.5rem;
+  color: #f0efed;
+}
+
+.nav-bar li a {
+  margin-left: 2rem;
+}
