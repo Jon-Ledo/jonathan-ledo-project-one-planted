@@ -16,6 +16,7 @@ body * {
 	+ p {
 		font-family: $font-body;
 		font-size: 2rem;
+		line-height: 3.2rem;
 	}
 }
 
@@ -38,10 +39,23 @@ ul li {
 	display: flex;
 }
 
-.img-container {
+img {
 	width: 100%;
 	height: auto;
 	display: block;
+}
+
+.btn {
+	background: $green;
+	color: $white;
+	font-size: 2rem;
+	font-weight: 700;
+	line-height: 3.2rem;
+	letter-spacing: 0.01rem;
+	padding: 1rem 3rem;
+	margin: 3rem 0;
+	text-align: center;
+	border: none;
 }
 
 // Header Styles
@@ -54,12 +68,14 @@ header {
 	h1 {
 		font-size: 16.6rem;
 		font-weight: 400;
+		text-align: center;
 		color: $white;
 		width: 50%;
 		position: absolute;
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
+		z-index: 2;
 
 		span {
 			color: $sunny-yellow;
@@ -92,8 +108,81 @@ header {
 .header-img {
 	position: absolute;
 	right: 0;
-	bottom: 0;
+	bottom: -10rem;
+	z-index: 1;
+	width: 45%;
 }
-// Home Styles
+
+// About Section Styles
+.about {
+	background: $white;
+	text-align: center;
+	padding: 25rem 0;
+
+	h2 {
+		font-size: 5.63rem;
+		font-weight: 700;
+		letter-spacing: 0.13rem;
+	}
+
+	p {
+		margin: 2rem auto;
+	}
+}
+
+// Home Section Styles
+.flex-container {
+	justify-content: space-between;
+}
+
+.home-card {
+	width: 42%;
+	flex-direction: column;
+
+	.img-panel {
+		width: 100%;
+	}
+
+	h3 {
+		font-size: 3.2rem;
+		font-weight: 700;
+		letter-spacing: 0.01rem;
+		padding-top: 15rem;
+	}
+}
+
+.flex-card1 {
+	text-align: right;
+	padding-bottom: 2rem;
+
+	.img-panel {
+		box-shadow: 3rem 3rem $sunny-yellow;
+		position: relative;
+		bottom: 3rem;
+	}
+
+	p {
+		padding-left: 20%;
+	}
+}
+
+.flex-card2 {
+	flex-direction: column-reverse;
+
+	.img-panel {
+		box-shadow: -3rem 3rem $sunny-yellow;
+		position: relative;
+		top: 3rem;
+	}
+
+	p {
+		padding-right: 20%;
+	}
+}
 // Home-Nav Styles
+.home-nav {
+	background-color: $white;
+	padding: 15rem;
+}
+
 // Footer Styles
