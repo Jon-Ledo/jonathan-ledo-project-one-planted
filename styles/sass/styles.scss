@@ -12,6 +12,11 @@ body * {
 	padding: 0;
 	margin: 0;
 	font-family: $font-heading;
+
+	+ p {
+		font-family: $font-body;
+		font-size: 2rem;
+	}
 }
 
 .wrapper {
@@ -33,26 +38,62 @@ ul li {
 	display: flex;
 }
 
+.img-container {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
 // Header Styles
 header {
 	background: url(../../assets/home-image-1.jpg) no-repeat;
 	background-size: cover;
 	height: 100vh;
+	position: relative;
+
+	h1 {
+		font-size: 16.6rem;
+		font-weight: 400;
+		color: $white;
+		width: 50%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+		span {
+			color: $sunny-yellow;
+		}
+	}
 }
 
 .nav-bar {
 	padding-top: 2rem;
 
-	.logo {
-		font-size: 2.5rem;
+	li:first-child {
+		font-size: 4rem;
 		color: $white;
 	}
 
 	li a {
-		margin-left: 2rem;
+		display: inline-block;
+		font-size: 2rem;
+		text-transform: uppercase;
+		margin-left: 4rem;
+		padding-top: 1.5rem;
+	}
+
+	li a:hover,
+	li a:focus {
+		color: $sunny-yellow;
 	}
 }
 
+.header-img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
 // Home Styles
 // Home-Nav Styles
 // Footer Styles
