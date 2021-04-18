@@ -462,9 +462,35 @@ header h1 span {
   background-color: #f8e71c;
 }
 
+.blog {
+  background-color: #f0efed;
+  padding: 10rem 0;
+}
+
+.blog .flex {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .blog img {
-  max-width: 500px;
+  width: 300px;
   height: auto;
+  -webkit-box-shadow: 2rem 2rem #f8e71c;
+          box-shadow: 2rem 2rem #f8e71c;
+}
+
+.blog .info-box5 {
+  width: 65%;
+}
+
+.blog .info-box5 h3 {
+  font-size: 4rem;
+  letter-spacing: 0.01rem;
+}
+
+.blog .info-box5 p {
+  margin: 3rem 0;
 }
 
 .gallery-container {

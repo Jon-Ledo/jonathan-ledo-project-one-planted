@@ -220,9 +220,30 @@ header {
 
 // Blog Styles
 .blog {
+	background-color: $white;
+	padding: 10rem 0;
+
+	.flex {
+		justify-content: space-between;
+	}
+
 	img {
-		max-width: 500px;
+		width: 300px;
 		height: auto;
+		box-shadow: 2rem 2rem $sunny-yellow;
+	}
+
+	.info-box5 {
+		width: 65%;
+
+		h3 {
+			font-size: 4rem;
+			letter-spacing: 0.01rem;
+		}
+
+		p {
+			margin: 3rem 0;
+		}
 	}
 }
 
