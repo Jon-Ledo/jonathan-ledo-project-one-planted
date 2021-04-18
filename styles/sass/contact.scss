@@ -10,15 +10,20 @@ header {
 	background-size: cover;
 	height: 60vh;
 
+	.wrapper {
+		position: relative;
+	}
+
 	h1 {
 		font-size: 8rem;
 		font-weight: 700;
 		line-height: 9.2rem;
 		color: $sunny-yellow;
-	}
-
-	img {
-		display: none;
+		width: 20%;
+		text-align: left;
+		transform: none;
+		left: 0;
+		top: 30rem;
 	}
 }
 
@@ -33,6 +38,11 @@ header {
 		.socials-icons {
 			font-size: 3rem;
 			padding-top: 5rem;
+			color: $green;
+
+			span {
+				margin: 0 0.5rem;
+			}
 		}
 
 		.contact-info {
@@ -45,24 +55,39 @@ header {
 	}
 }
 
+fieldset {
+	border: none;
+	padding: 0;
+}
+
 .contact-form {
 	width: 60%;
+	height: 50rem;
 	background: white;
 	padding: 4rem;
 	box-shadow: -2rem 2rem $sunny-yellow;
 	position: relative;
+	bottom: 22rem;
 
-	form {
+	form.flex {
 		flex-direction: column;
 		font-size: 2rem;
 
-		input,
-		textarea {
-			border: none;
-			width: 100%;
+		input {
+			width: 45%;
+			border-style: none;
+			border-bottom: 0.3rem solid $green;
 			padding: 1rem;
-			margin: 2rem auto;
-			background-color: red;
+
+			&[type='email'] {
+				margin-left: 7.5rem;
+			}
+		}
+
+		textarea {
+			border: 0.3rem solid $green;
+			margin: 3rem 0;
+			padding: 2rem 1rem;
 		}
 
 		.btn {

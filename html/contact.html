@@ -32,10 +32,7 @@
                 </nav>
         
                 <h1>Get in Touch</h1>
-                <div class="img-container header-img">
-                    <img src="./assets/header-box.jpg" alt="displayed leaves">
-                </div>
-            </div> <!-- wrapper -->
+            </div>
         </header>
 
         <!-- socials and form -->
@@ -62,11 +59,13 @@
 
                 <div class="contact-form">
                     <form class="flex">
-                        <input type="text" id="name" class="name" placeholder="Name">
-                        <label for="name"></label>
-
-                        <input type="email" id="email" class="email" placeholder="Email Address">
-                        <label for="email"></label>
+                        <fieldset class="flex">
+                            <input type="text" id="name" class="name" placeholder="Name">
+                            <label for="name"></label>
+                            
+                            <input type="email" id="email" class="email" placeholder="Email Address">
+                            <label for="email"></label>  
+                        </fieldset>
 
                         <textarea name="message" id="message" cols="50" rows="5" placeholder="Message"></textarea>
 

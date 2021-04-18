@@ -241,15 +241,21 @@ header {
   height: 60vh;
 }
 
+header .wrapper {
+  position: relative;
+}
+
 header h1 {
   font-size: 8rem;
   font-weight: 700;
   line-height: 9.2rem;
   color: #f8e71c;
-}
-
-header img {
-  display: none;
+  width: 20%;
+  text-align: left;
+  -webkit-transform: none;
+          transform: none;
+  left: 0;
+  top: 30rem;
 }
 
 .contact {
@@ -266,6 +272,11 @@ header img {
 .contact .wrapper .socials-icons {
   font-size: 3rem;
   padding-top: 5rem;
+  color: #0e902d;
+}
+
+.contact .wrapper .socials-icons span {
+  margin: 0 0.5rem;
 }
 
 .contact .wrapper .contact-info {
@@ -276,16 +287,23 @@ header img {
   font-size: 3rem;
 }
 
+fieldset {
+  border: none;
+  padding: 0;
+}
+
 .contact-form {
   width: 60%;
+  height: 50rem;
   background: white;
   padding: 4rem;
   -webkit-box-shadow: -2rem 2rem #f8e71c;
           box-shadow: -2rem 2rem #f8e71c;
   position: relative;
+  bottom: 22rem;
 }
 
-.contact-form form {
+.contact-form form.flex {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -293,15 +311,23 @@ header img {
   font-size: 2rem;
 }
 
-.contact-form form input,
-.contact-form form textarea {
-  border: none;
-  width: 100%;
+.contact-form form.flex input {
+  width: 45%;
+  border-style: none;
+  border-bottom: 0.3rem solid #0e902d;
   padding: 1rem;
-  margin: 2rem auto;
-  background-color: red;
 }
 
-.contact-form form .btn {
+.contact-form form.flex input[type='email'] {
+  margin-left: 7.5rem;
+}
+
+.contact-form form.flex textarea {
+  border: 0.3rem solid #0e902d;
+  margin: 3rem 0;
+  padding: 2rem 1rem;
+}
+
+.contact-form form.flex .btn {
   margin-bottom: 0;
 }
