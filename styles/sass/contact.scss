@@ -1,0 +1,72 @@
+@import './partials/setup';
+@import './partials/variables';
+@import './partials/mixins';
+@import './partials/media-queries';
+
+// Contact Page Specific Styles
+//Header Styles
+header {
+	background: url(../../assets/contact-header-1.jpg) no-repeat;
+	background-size: cover;
+	height: 60vh;
+
+	h1 {
+		font-size: 8rem;
+		font-weight: 700;
+		line-height: 9.2rem;
+		color: $sunny-yellow;
+	}
+
+	img {
+		display: none;
+	}
+}
+
+// Socials Sections
+.contact {
+	background: $white;
+	min-height: 50vh;
+
+	.wrapper {
+		justify-content: space-between;
+
+		.socials-icons {
+			font-size: 3rem;
+			padding-top: 5rem;
+		}
+
+		.contact-info {
+			padding: 5rem 0;
+		}
+
+		.contact-info p:first-child {
+			font-size: 3rem;
+		}
+	}
+}
+
+.contact-form {
+	width: 60%;
+	background: white;
+	padding: 4rem;
+	box-shadow: -2rem 2rem $sunny-yellow;
+	position: relative;
+
+	form {
+		flex-direction: column;
+		font-size: 2rem;
+
+		input,
+		textarea {
+			border: none;
+			width: 100%;
+			padding: 1rem;
+			margin: 2rem auto;
+			background-color: red;
+		}
+
+		.btn {
+			margin-bottom: 0;
+		}
+	}
+}
