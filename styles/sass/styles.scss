@@ -179,10 +179,61 @@ header {
 		padding-right: 20%;
 	}
 }
-// Home-Nav Styles
-.home-nav {
+// Home Info Styles
+.home-info {
 	background-color: $white;
-	padding: 15rem;
+	padding: 15rem 0;
+
+	.info-box {
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+		.info-box1,
+		.info-box2,
+		.info-box3,
+		.info-box4 {
+			max-width: 45%;
+			margin-bottom: 4rem;
+		}
+	}
+
+	h3 {
+		font-size: 3.2rem;
+		font-weight: 700;
+		letter-spacing: 0.01rem;
+		padding: 2rem 0;
+		position: relative;
+
+		span {
+			position: absolute;
+			left: -8rem;
+			bottom: 1rem;
+			text-align: center;
+			padding: 1.5rem 0;
+			width: 6rem;
+			height: 6rem;
+			border-radius: 50%;
+			background-color: $sunny-yellow;
+		}
+	}
 }
 
+// Blog Styles
+.blog {
+	img {
+		max-width: 500px;
+		height: auto;
+	}
+}
 // Footer Styles
+footer {
+	background-color: $black;
+	text-align: center;
+
+	p {
+		color: $white;
+		font-size: 2rem;
+		padding: 2rem;
+		margin: 0 auto;
+	}
+}
