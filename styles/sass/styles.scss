@@ -225,6 +225,17 @@ header {
 		height: auto;
 	}
 }
+
+// Image Gallery Styles
+.gallery-container {
+	justify-content: space-between;
+	margin: 10% 0;
+
+	img {
+		max-width: 30%;
+	}
+}
+
 // Footer Styles
 footer {
 	background-color: $black;
