@@ -261,3 +261,49 @@ header .wrapper h1 {
   top: 30rem;
   margin: 0;
 }
+
+.main-content {
+  background-color: #f0efed;
+}
+
+.main-content .img-container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-content .img-container .img-side-bar {
+  max-width: 30%;
+  height: 50rem;
+}
+
+.main-content .img-container .img-post-image {
+  max-width: 100%;
+  -webkit-box-shadow: -2rem 2rem #f8e71c;
+          box-shadow: -2rem 2rem #f8e71c;
+}
+
+.article-card {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 60%;
+}
+
+.article-card .article-content {
+  max-width: 90%;
+}
+
+.article-card .article-content p:nth-of-type(1) {
+  color: #074115;
+  font-weight: 700;
+}
+
+.article-card .article-content h3 {
+  font-size: 3.2rem;
+}
+
+.article-card .article-content h3 p {
+  margin: 1rem 0;
+}

@@ -29,3 +29,46 @@ header {
 		}
 	}
 }
+
+// Main Content
+.main-content {
+	background-color: $white;
+}
+
+// Image styles
+.main-content .img-container {
+	justify-content: space-between;
+
+	.img-side-bar {
+		max-width: 30%;
+		height: 50rem;
+	}
+
+	.img-post-image {
+		max-width: 100%;
+		box-shadow: -2rem 2rem $sunny-yellow;
+	}
+}
+
+// Article Card Styles
+.article-card {
+	flex-direction: column;
+	max-width: 60%;
+
+	.article-content {
+		max-width: 90%;
+
+		& p:nth-of-type(1) {
+			color: $forest-green;
+			font-weight: 700;
+		}
+
+		h3 {
+			font-size: 3.2rem;
+
+			p {
+				margin: 1rem 0;
+			}
+		}
+	}
+}
