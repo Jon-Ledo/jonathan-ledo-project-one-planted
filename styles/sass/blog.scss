@@ -1,0 +1,31 @@
+@import './partials/setup';
+@import './partials/variables';
+@import './partials/mixins';
+@import './partials/media-queries';
+
+// Header Styles
+header {
+	background: url(../../assets/blog-header-1.jpg) no-repeat;
+	background-size: cover;
+	height: 60vh;
+
+	nav {
+		background-color: black;
+	}
+
+	.wrapper {
+		position: relative;
+
+		h1 {
+			font-size: 8rem;
+			font-weight: 700;
+			line-height: 9.2rem;
+			color: $sunny-yellow;
+			text-align: left;
+			transform: none;
+			left: 0;
+			top: 30rem;
+			margin: 0;
+		}
+	}
+}
