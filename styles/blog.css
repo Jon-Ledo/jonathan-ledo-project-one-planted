@@ -271,18 +271,19 @@ body {
   position: relative;
 }
 
-.main-content .img-container {
+.main-content-container {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  max-width: 30%;
 }
 
-.main-content .img-container .img-side-bar {
-  max-width: 30%;
+.main-content-container .img-side-bar {
+  margin-top: 20rem;
   height: 50rem;
 }
 
-.main-content .img-container .img-post-image {
+.main-content-container .img-post-image {
   max-width: 100%;
   -webkit-box-shadow: -2rem 2rem #f8e71c;
           box-shadow: -2rem 2rem #f8e71c;
@@ -380,7 +381,7 @@ fieldset {
 }
 
 .post-comment-box form.flex input {
-  width: 45%;
+  width: 47%;
   border-style: none;
   border-bottom: 0.3rem solid #0e902d;
   padding: 1rem;

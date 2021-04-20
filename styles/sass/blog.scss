@@ -41,11 +41,12 @@ body {
 }
 
 // Image styles
-.main-content .img-container {
+.main-content-container {
 	justify-content: space-between;
+	max-width: 30%;
 
 	.img-side-bar {
-		max-width: 30%;
+		margin-top: 20rem;
 		height: 50rem;
 	}
 
@@ -55,8 +56,9 @@ body {
 	}
 }
 
-// Article Card Styles
+// Aside Section Styles
 
+// Article Section Styles
 .article-card {
 	flex-direction: column;
 	max-width: 60%;
@@ -142,7 +144,7 @@ fieldset {
 		font-size: 2rem;
 
 		input {
-			width: 45%;
+			width: 47%;
 			border-style: none;
 			border-bottom: 0.3rem solid $green;
 			padding: 1rem;
