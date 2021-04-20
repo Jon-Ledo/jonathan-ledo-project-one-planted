@@ -31,8 +31,13 @@ header {
 }
 
 // Main Content
+body {
+	background-color: $white;
+}
+
 .main-content {
 	background-color: $white;
+	position: relative;
 }
 
 // Image styles
@@ -51,24 +56,45 @@ header {
 }
 
 // Article Card Styles
+
 .article-card {
 	flex-direction: column;
 	max-width: 60%;
+	position: absolute;
+	top: -25rem;
+	right: 0;
+	background-color: $white;
 
 	.article-content {
 		max-width: 90%;
+		padding: 4rem;
+		margin-bottom: 4rem;
+		box-shadow: -2rem 1rem $sunny-yellow;
 
 		& p:nth-of-type(1) {
 			color: $forest-green;
-			font-weight: 700;
+			margin-bottom: 10rem;
 		}
 
 		h3 {
-			font-size: 3.2rem;
+			font-size: 4.3rem;
+			font-weight: 700;
+			letter-spacing: 0.013rem;
+			margin-top: 10rem;
+		}
 
-			p {
-				margin: 1rem 0;
+		p {
+			margin: 1rem 0;
+
+			span {
+				font-weight: 700;
 			}
 		}
 	}
 }
+
+// Footer Style
+// footer {
+// 	position: absolute;
+// 	bottom: 0;
+// }
