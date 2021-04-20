@@ -1,7 +1,5 @@
 @import './partials/setup';
 @import './partials/variables';
-@import './partials/mixins';
-@import './partials/media-queries';
 
 // Header Styles
 header {
@@ -209,3 +207,6 @@ fieldset {
 
 // Footer Style
 // Please look above to the .main-content
+
+// Media Queries
+@import 'partials/media-queries';

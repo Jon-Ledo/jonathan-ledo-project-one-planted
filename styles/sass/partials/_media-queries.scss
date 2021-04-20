@@ -1,9 +1,51 @@
-// /* Portrait tablet and small desktops */
-// @media (max-width: 940px) {
-// }
-// /* Landscape phone to portrait tablet */
-// @media (max-width: 768px) {
-// }
-// /* Landscape phones and down */
-// @media (max-width: 480px) {
-// }
+// small screen size
+@media (max-width: 940px) {
+	body {
+		h3 {
+			font-size: 2.8rem;
+		}
+
+		p {
+			font-size: 1.8rem;
+		}
+	}
+
+	header {
+		max-height: 50rem;
+
+		h1 {
+			font-size: 10rem;
+		}
+	}
+
+	.about {
+		padding: 17rem 0 10rem;
+	}
+
+	.flex-container {
+		h3 {
+			padding-top: 2rem;
+		}
+	}
+
+	.home-info {
+		padding-bottom: 5rem;
+
+		h3 {
+			margin-left: 8rem;
+
+			span {
+				left: -8rem;
+			}
+		}
+	}
+
+	.blog {
+		padding: 3rem 0;
+
+		img {
+			width: 20rem;
+			margin-top: 5rem;
+		}
+	}
+}

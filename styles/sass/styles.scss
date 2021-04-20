@@ -1,7 +1,5 @@
 @import 'partials/setup';
 @import 'partials/variables';
-@import 'partials/mixins';
-@import 'partials/media-queries';
 
 // General Styles
 html {
@@ -70,9 +68,8 @@ header {
 	h1 {
 		font-size: 16.6rem;
 		font-weight: 400;
-		text-align: center;
+		text-align: left;
 		color: $white;
-		width: 50%;
 		position: absolute;
 		top: 50%;
 		left: 50%;
@@ -271,3 +268,6 @@ footer {
 		margin: 0 auto;
 	}
 }
+
+// Media Queries
+@import 'partials/media-queries';
