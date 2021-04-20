@@ -327,3 +327,77 @@ body {
 .article-card .article-content p span {
   font-weight: 700;
 }
+
+.comment-section {
+  padding: 4rem;
+}
+
+.comment-section h3 {
+  font-size: 3.2rem;
+  letter-spacing: 0.01rem;
+}
+
+.comment-section .comment-box {
+  margin: 5rem 0;
+}
+
+.comment-section .comment-box img {
+  width: 10rem;
+  height: auto;
+}
+
+.comment-section .comment-box .comment-box-text {
+  max-width: 85%;
+  margin: 2rem 0;
+  padding: 0 4rem;
+  position: relative;
+  top: -2rem;
+}
+
+.comment-section .comment-box .comment-box-text h4 {
+  font-size: 2.5rem;
+  color: #074115;
+  margin-bottom: 2rem;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+.post-comment-box {
+  width: 90%;
+  height: 50rem;
+  padding: 4rem;
+}
+
+.post-comment-box form.flex {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 2rem;
+}
+
+.post-comment-box form.flex input {
+  width: 45%;
+  border-style: none;
+  border-bottom: 0.3rem solid #0e902d;
+  padding: 1rem;
+  background-color: #f0efed;
+}
+
+.post-comment-box form.flex input[type='email'] {
+  margin-left: 7.5rem;
+}
+
+.post-comment-box form.flex textarea {
+  border: 0.3rem solid #0e902d;
+  margin: 3rem 0;
+  padding: 2rem 1rem;
+  background-color: #f0efed;
+}
+
+.post-comment-box form.flex .btn {
+  margin-bottom: 0;
+}

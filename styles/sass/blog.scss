@@ -93,6 +93,79 @@ body {
 	}
 }
 
+// Comment Section Styles
+.comment-section {
+	padding: 4rem;
+
+	h3 {
+		font-size: 3.2rem;
+		letter-spacing: 0.01rem;
+	}
+
+	.comment-box {
+		margin: 5rem 0;
+
+		img {
+			width: 10rem;
+			height: auto;
+		}
+
+		.comment-box-text {
+			max-width: 85%;
+			margin: 2rem 0;
+			padding: 0 4rem;
+			position: relative;
+			top: -2rem;
+
+			h4 {
+				font-size: 2.5rem;
+				color: $forest-green;
+				margin-bottom: 2rem;
+			}
+		}
+	}
+}
+
+// Post Comment Box Styles
+fieldset {
+	border: none;
+	padding: 0;
+}
+
+.post-comment-box {
+	width: 90%;
+	height: 50rem;
+	padding: 4rem;
+
+	form.flex {
+		flex-direction: column;
+		font-size: 2rem;
+
+		input {
+			width: 45%;
+			border-style: none;
+			border-bottom: 0.3rem solid $green;
+			padding: 1rem;
+			background-color: $white;
+
+			&[type='email'] {
+				margin-left: 7.5rem;
+			}
+		}
+
+		textarea {
+			border: 0.3rem solid $green;
+			margin: 3rem 0;
+			padding: 2rem 1rem;
+			background-color: $white;
+		}
+
+		.btn {
+			margin-bottom: 0;
+		}
+	}
+}
+
 // Footer Style
 // footer {
 // 	position: absolute;
