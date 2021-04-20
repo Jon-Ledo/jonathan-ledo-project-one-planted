@@ -44,10 +44,13 @@ body {
 .main-content-container {
 	justify-content: space-between;
 	max-width: 30%;
+	// setting height for the footer
+	min-height: 2775px;
 
 	.img-side-bar {
 		margin-top: 20rem;
 		height: 50rem;
+		box-shadow: 2rem 0 white;
 	}
 
 	.img-post-image {
@@ -56,7 +59,40 @@ body {
 	}
 }
 
+// 1295 - 2975
+
 // Aside Section Styles
+.aside-content {
+	background-color: white;
+	width: 60%;
+	float: right;
+	box-shadow: 2rem 0 white;
+	padding: 2rem;
+
+	h4 {
+		font-size: 2.5rem;
+		margin: 2rem 0;
+	}
+
+	a {
+		text-decoration: none;
+		color: $forest-green;
+	}
+
+	ul {
+		padding-left: 3rem;
+		color: $green;
+
+		li {
+			list-style: disc;
+			font-size: 2rem;
+			font-family: $font-body;
+			line-height: 3.2rem;
+			padding-left: 1rem;
+			color: $black;
+		}
+	}
+}
 
 // Article Section Styles
 .article-card {
@@ -71,7 +107,9 @@ body {
 		max-width: 90%;
 		padding: 4rem;
 		margin-bottom: 4rem;
-		box-shadow: -2rem 1rem $sunny-yellow;
+		margin-left: -2rem;
+		border-left: 1rem solid $sunny-yellow;
+		border-bottom: 1rem solid $sunny-yellow;
 
 		& p:nth-of-type(1) {
 			color: $forest-green;
@@ -149,6 +187,7 @@ fieldset {
 			border-bottom: 0.3rem solid $green;
 			padding: 1rem;
 			background-color: $white;
+			outline: none;
 
 			&[type='email'] {
 				margin-left: 7.5rem;
@@ -169,7 +208,4 @@ fieldset {
 }
 
 // Footer Style
-// footer {
-// 	position: absolute;
-// 	bottom: 0;
-// }
+// Please look above to the .main-content

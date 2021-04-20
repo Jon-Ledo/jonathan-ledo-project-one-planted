@@ -276,17 +276,53 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   max-width: 30%;
+  min-height: 2775px;
 }
 
 .main-content-container .img-side-bar {
   margin-top: 20rem;
   height: 50rem;
+  -webkit-box-shadow: 2rem 0 white;
+          box-shadow: 2rem 0 white;
 }
 
 .main-content-container .img-post-image {
   max-width: 100%;
   -webkit-box-shadow: -2rem 2rem #f8e71c;
           box-shadow: -2rem 2rem #f8e71c;
+}
+
+.aside-content {
+  background-color: white;
+  width: 60%;
+  float: right;
+  -webkit-box-shadow: 2rem 0 white;
+          box-shadow: 2rem 0 white;
+  padding: 2rem;
+}
+
+.aside-content h4 {
+  font-size: 2.5rem;
+  margin: 2rem 0;
+}
+
+.aside-content a {
+  text-decoration: none;
+  color: #074115;
+}
+
+.aside-content ul {
+  padding-left: 3rem;
+  color: #0e902d;
+}
+
+.aside-content ul li {
+  list-style: disc;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 3.2rem;
+  padding-left: 1rem;
+  color: #2c2c2c;
 }
 
 .article-card {
@@ -305,8 +341,9 @@ body {
   max-width: 90%;
   padding: 4rem;
   margin-bottom: 4rem;
-  -webkit-box-shadow: -2rem 1rem #f8e71c;
-          box-shadow: -2rem 1rem #f8e71c;
+  margin-left: -2rem;
+  border-left: 1rem solid #f8e71c;
+  border-bottom: 1rem solid #f8e71c;
 }
 
 .article-card .article-content p:nth-of-type(1) {
@@ -386,6 +423,7 @@ fieldset {
   border-bottom: 0.3rem solid #0e902d;
   padding: 1rem;
   background-color: #f0efed;
+  outline: none;
 }
 
 .post-comment-box form.flex input[type='email'] {

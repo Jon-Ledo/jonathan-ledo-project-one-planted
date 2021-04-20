@@ -243,12 +243,14 @@ body * {
   padding: 0;
   margin: 0;
   font-family: "Josefin Sans", sans-serif;
+  color: #2c2c2c;
 }
 
 body * + p {
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
   line-height: 3.2rem;
+  color: #2c2c2c;
 }
 
 .wrapper {
@@ -320,7 +322,7 @@ header h1 span {
   padding-top: 2rem;
 }
 
-.nav-bar li:first-child {
+.nav-bar .logo {
   font-size: 4rem;
   color: #f0efed;
 }

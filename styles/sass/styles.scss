@@ -12,11 +12,13 @@ body * {
 	padding: 0;
 	margin: 0;
 	font-family: $font-heading;
+	color: $black;
 
 	+ p {
 		font-family: $font-body;
 		font-size: 2rem;
 		line-height: 3.2rem;
+		color: $black;
 	}
 }
 
@@ -86,7 +88,7 @@ header {
 .nav-bar {
 	padding-top: 2rem;
 
-	li:first-child {
+	.logo {
 		font-size: 4rem;
 		color: $white;
 	}
