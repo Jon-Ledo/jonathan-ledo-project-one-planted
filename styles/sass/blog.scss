@@ -57,8 +57,6 @@ body {
 	}
 }
 
-// 1295 - 2975
-
 // Aside Section Styles
 .aside-content {
 	background-color: white;
@@ -75,6 +73,7 @@ body {
 	a {
 		text-decoration: none;
 		color: $forest-green;
+		font-weight: bold;
 	}
 
 	ul {
@@ -125,6 +124,7 @@ body {
 			margin: 1rem 0;
 
 			span {
+				color: $forest-green;
 				font-weight: 700;
 			}
 		}

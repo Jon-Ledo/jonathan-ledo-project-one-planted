@@ -1,0 +1,70 @@
+@media (max-width: 940px) {
+	// Changing the flex direction
+	.main-content-container {
+		max-width: 100%;
+		flex-direction: column;
+		background-color: white;
+
+		// Image styles
+		.img-side-bar {
+			margin-top: 0;
+			width: 40rem;
+			height: 35rem;
+			padding: 4rem 0 0 3rem;
+		}
+
+		.img-post-image {
+			box-shadow: 0 2rem $sunny-yellow;
+		}
+	}
+
+	// Aside content
+	aside {
+		display: flex;
+		justify-content: space-between;
+
+		.aside-content {
+			width: 50%;
+			padding: 2rem;
+		}
+	}
+
+	// Article content
+	.article-card {
+		max-width: 100%;
+		position: static;
+
+		.article-content {
+			max-width: 100%;
+			margin-left: 0;
+			border-left: none;
+			border-bottom: 1rem solid $sunny-yellow;
+
+			& p:nth-of-type(1) {
+				margin-bottom: 5rem;
+			}
+		}
+	}
+
+	// Comment Section Styles
+	.comment-section {
+		padding: 4rem;
+
+		.comment-box {
+			margin: 5rem 0 2rem;
+
+			.comment-box-text {
+				padding: 0 0 0 4rem;
+			}
+		}
+	}
+
+	.post-comment-box {
+		width: 100%;
+	}
+
+	footer {
+		position: relative;
+		bottom: 0;
+	}
+}
