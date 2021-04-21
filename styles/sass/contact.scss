@@ -36,10 +36,11 @@ header {
 		.socials-icons {
 			font-size: 3rem;
 			padding-top: 5rem;
-			color: $green;
 
-			span {
+			.fab,
+			.far {
 				margin: 0 0.5rem;
+				color: $green;
 			}
 		}
 
@@ -76,9 +77,10 @@ fieldset {
 			border-style: none;
 			border-bottom: 0.3rem solid $green;
 			padding: 1rem;
+			outline: none;
 
 			&[type='email'] {
-				margin-left: 7.5rem;
+				margin-left: 5rem;
 			}
 		}
 
@@ -96,3 +98,5 @@ fieldset {
 
 // Media Queries
 @import 'partials/media-queries';
+@import 'partials/contact-media-queries';
+@import 'partials/blog-media-queries';

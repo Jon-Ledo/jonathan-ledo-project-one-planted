@@ -1,0 +1,20 @@
+@media (max-width: 940px) {
+	body {
+		background-color: $white;
+	}
+
+	header {
+		h1 {
+			width: 21rem;
+			font-size: 7rem;
+			top: 25rem;
+		}
+	}
+
+	footer {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+	}
+}
