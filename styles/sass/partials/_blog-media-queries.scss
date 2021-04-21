@@ -1,3 +1,4 @@
+// Portrait tablet and small desktops
 @media (max-width: 940px) {
 	// Changing the flex direction
 	.main-content-container {
@@ -68,3 +69,43 @@
 		bottom: 0;
 	}
 }
+
+// Landscape phone to portrait tablet
+@media (max-width: 768px) {
+	.aside-content {
+		ul li {
+			font-size: 1.6rem;
+		}
+	}
+}
+
+// Landscape phones and down
+// @media (max-width: 480px) {
+// 	.drop-menu {
+// 		label {
+// 			display: block;
+// 			font-size: 4rem;
+
+// 			.fas {
+// 				color: $sunny-yellow;
+// 			}
+// 		}
+// 	}
+
+// 	.nav-bar {
+// 		ul {
+// 			flex-direction: column;
+// 		}
+
+// 		li a {
+// 			display: none;
+// 			padding: 12px 16px;
+// 			border-top: 1px solid grey;
+// 			text-align: right;
+// 		}
+// 	}
+
+// 	#burger-menu:checked ~ ul li a {
+// 		display: block;
+// 	}
+// }

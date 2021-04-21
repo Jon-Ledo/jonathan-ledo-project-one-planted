@@ -26,6 +26,12 @@ body * {
 	margin: 0 auto;
 }
 
+/* hide the checkbox */
+.drop-menu input[type='checkbox'],
+label {
+	display: none;
+}
+
 ul li {
 	list-style: none;
 
@@ -101,6 +107,12 @@ header {
 	li a:hover,
 	li a:focus {
 		color: $sunny-yellow;
+	}
+
+	// burger menu
+	#burger-menu,
+	.drop-menu label {
+		float: right;
 	}
 }
 
