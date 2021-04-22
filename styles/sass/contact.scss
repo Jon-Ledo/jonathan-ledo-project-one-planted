@@ -8,6 +8,10 @@ header {
 	background-size: cover;
 	height: 60vh;
 
+	nav {
+		background-color: rgba(0, 0, 0, 0.788);
+	}
+
 	.wrapper {
 		position: relative;
 	}
@@ -54,6 +58,7 @@ header {
 	}
 }
 
+// Contact Form Styles
 fieldset {
 	border: none;
 	padding: 0;

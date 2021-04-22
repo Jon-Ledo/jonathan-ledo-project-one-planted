@@ -241,6 +241,10 @@ header {
   height: 60vh;
 }
 
+header nav {
+  background-color: rgba(0, 0, 0, 0.788);
+}
+
 header .wrapper {
   position: relative;
 }
@@ -413,6 +417,33 @@ fieldset {
   }
 }
 
+@media (max-width: 768px) {
+  .contact .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact {
+    text-align: center;
+  }
+  .contact .wrapper .socials-icons .fab,
+  .contact .wrapper .socials-icons .far {
+    margin: 0 1.5rem;
+  }
+  .contact-form {
+    width: 100%;
+    height: 50rem;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    position: initial;
+    margin-bottom: 5rem;
+  }
+  .contact-form input {
+    margin-bottom: 2rem;
+  }
+}
+
 @media (max-width: 940px) {
   .main-content-container {
     max-width: 100%;
@@ -487,7 +518,7 @@ fieldset {
   }
   header .wrapper h1 {
     left: 2.8rem;
-    top: 38rem;
+    top: 28rem;
   }
   aside {
     -webkit-box-orient: vertical;
