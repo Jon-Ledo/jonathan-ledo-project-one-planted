@@ -236,7 +236,7 @@ html {
 }
 
 header {
-  background: url(./assets/blog-header-1.jpg) no-repeat;
+  background: url(../assets/blog-header-1.jpg) no-repeat;
   background-size: cover;
   height: 60vh;
 }
